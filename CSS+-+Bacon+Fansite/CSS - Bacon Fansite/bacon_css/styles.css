@@ -1,0 +1,32 @@
+/*******************************tag selector*************************/
+body {
+  background-color: #FDEEDC;
+}
+
+h1 {
+  color: #FFD8A9;
+}
+
+p {
+  color: #F1A661;
+}
+
+img:hover {
+  background-color: gold;
+}
+/*******************************class selector*************************/
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+  background-color: black;
+}
+
+.circular {
+  border-radius: 100%;
+}
+/*******************************id selector*************************/
+#heading {
+  color: blue;
+}
