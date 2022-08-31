@@ -1,11 +1,51 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 div {
     background-color: #7C83FD;
 }
+
+/********************************class selector******************************/
+
+.top-container {
+    background-color: #7C83FD;
+    position: relative;
+    padding-top: 100px;
+}
+.data-science {
+    text-decoration: underline;
+}
+
+.programming {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+/********************************id selector******************************/
